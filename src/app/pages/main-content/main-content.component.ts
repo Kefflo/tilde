@@ -7,6 +7,7 @@ import { TextService } from '../../shared/models/services/text.service';
   standalone: false,
   templateUrl: './main-content.component.html',
   styleUrls: ['./main-content.component.css'],
+
 })
 export class MainContentComponent {
   paragraphOne: string =

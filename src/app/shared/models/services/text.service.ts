@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class TextService {
-
   private readonly sentences: string[] = [
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'Ut pellentesque mi id tellus cursus, eget viverra lacus interdum.',
@@ -18,7 +17,7 @@ export class TextService {
     'Phasellus sollicitudin hendrerit blandit.',
     'Suspendisse risus libero, malesuada at ultrices dictum, interdum sit amet sem.',
     'Nullam posuere est quis pellentesque pharetra.',
-    'Praesent tellus ipsum, faucibus a lorem id, faucibus accumsan nulla.'
+    'Praesent tellus ipsum, faucibus a lorem id, faucibus accumsan nulla.',
   ];
 
   getRandomSentence(): string {

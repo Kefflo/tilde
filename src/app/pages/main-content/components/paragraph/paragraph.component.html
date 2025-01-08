@@ -1,2 +1,13 @@
+<section>
+  <div class="example-flex-container">
+    <button
+      style="color: black"
+      (click)="addText(paragraph.id)"
+      mat-icon-button
+      aria-label="Add to paragraph"
+    >
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+</section>
 <p>{{ paragraph.paragraph }}</p>
-<button (click)="addText(paragraph.id)">Add Sentence</button>

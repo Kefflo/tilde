@@ -1,4 +1,4 @@
 export interface Paragraph {
-    id: number;
-    paragraph: string;
+  id: number;
+  paragraph: string;
 }
