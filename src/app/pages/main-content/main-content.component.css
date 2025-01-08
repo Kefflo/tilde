@@ -17,10 +17,10 @@ p {
 .example-card {
   display: inline-block;
   vertical-align: top;
-  margin: 10px;
-  padding: 20px;
+  margin: 15px;
+  padding: 28px;
   background-color: #f7f7f7;
-  width: calc(50% - 20px);
+  width: 48%;
 }
 
 .example-card-content p {
@@ -28,21 +28,8 @@ p {
 }
 
 @media (max-width: 768px) {
-  .example-card-content {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .example-card-content {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 769px) {
-  .example-card-content {
-    width: calc(50% - 20px);
+  .example-card {
+    float: none;
+    width: 80%;
   }
 }
